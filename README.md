@@ -1,55 +1,61 @@
-🚀 AI Interview Prep Platform
+# 🚀 AI Interview Prep Platform
 
-🔗 Live Demo: https://ai-interview-prep-seven-wheat.vercel.app/sign-in
+🔗 **Live Demo:** https://ai-interview-prep-seven-wheat.vercel.app/sign-in  
 
-An AI-powered interview preparation platform that helps users practice, improve, and gain confidence through personalized mock interviews and intelligent feedback.
+An AI-powered interview preparation platform that helps users practice mock interviews, receive intelligent feedback, and improve their performance with personalized question generation.
 
-📌 Overview
+---
 
-This platform leverages AI to simulate real interview scenarios and generate tailored questions based on user input such as resume or role. It enables users to practice interviews, receive feedback, and improve communication skills efficiently.
+## 📌 Overview
 
-AI interview tools typically provide personalized questions, mock sessions, and feedback to help candidates prepare better for real-world interviews .
+This platform simulates real interview scenarios using AI. Users can practice technical and behavioral interviews, get feedback on their responses, and improve their communication and problem-solving skills.
 
-✨ Features
-🔐 Authentication System
-Secure sign-in/sign-up functionality
-🤖 AI-Powered Mock Interviews
-Generate interview questions dynamically
-Role-based and resume-based question generation
-📄 Resume-Based Personalization
-Upload or input resume details
-Tailored interview questions
-💬 Interactive Q&A
-Practice answering questions in real-time
-📊 Feedback & Improvement
-AI-generated suggestions to improve answers
-🎯 Multiple Domains Support
-DSA, Web Dev, Behavioral, System Design
+---
 
-🛠️ Tech Stack
-Frontend: Next.js / React
-Styling: Tailwind CSS
-Backend: Node.js / API Routes
-AI Integration: OpenAI APIs (GPT / Whisper)
-Authentication: Clerk / Firebase / Auth.js (depending on your setup)
+## ✨ Features
 
-Deployment: Vercel
-⚙️ Installation & Setup
-1️⃣ Clone the repository
+- 🔐 **Authentication System**
+  - Secure user sign-in and sign-up
+
+- 🤖 **AI-Powered Mock Interviews**
+  - Dynamic question generation
+  - Role-based interview simulation
+
+- 📄 **Resume-Based Personalization**
+  - Tailored questions based on user profile
+
+- 💬 **Interactive Practice**
+  - Real-time question and answer flow
+
+- 📊 **AI Feedback System**
+  - Suggestions for improving answers
+
+- 🎯 **Multiple Interview Domains**
+  - DSA, Web Development, Behavioral, System Design
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, React  
+- **Styling:** Tailwind CSS  
+- **Backend:** Node.js (API Routes)  
+- **AI Integration:** OpenAI API  
+- **Authentication:** Clerk / Firebase / Auth.js  
+- **Deployment:** Vercel  
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/ai-interview-prep.git
 cd ai-interview-prep
-2️⃣ Install dependencies
 npm install
-3️⃣ Setup environment variables
-
-Create a .env.local file and add:
-
 OPENAI_API_KEY=your_api_key
 NEXT_PUBLIC_APP_URL=http://localhost:3000
-4️⃣ Run the development server
 npm run dev
-
-Visit 👉 http://localhost:3000
 
 📂 Project Structure
 ├── app/                # Next.js app directory
