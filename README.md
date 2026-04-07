@@ -65,13 +65,15 @@ npm run dev
 ├── styles/             # Global styles
 ├── types/              # Type definitions
 └── README.md
-🧠 How It Works
+
+## 🧠 How It Works
 User signs in
 Selects role or inputs details
 AI generates interview questions
 User answers interactively
 AI provides feedback and suggestions
-🚀 Future Improvements
+
+## 🚀 Future Improvements
 🎙️ Voice-based interview simulation
 📈 Performance analytics dashboard
 🧑‍💼 Company-specific interview sets
