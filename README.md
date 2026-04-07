@@ -25,12 +25,14 @@ Practice answering questions in real-time
 AI-generated suggestions to improve answers
 🎯 Multiple Domains Support
 DSA, Web Dev, Behavioral, System Design
+
 🛠️ Tech Stack
 Frontend: Next.js / React
 Styling: Tailwind CSS
 Backend: Node.js / API Routes
 AI Integration: OpenAI APIs (GPT / Whisper)
 Authentication: Clerk / Firebase / Auth.js (depending on your setup)
+
 Deployment: Vercel
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
