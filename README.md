@@ -63,25 +63,20 @@ npm run dev
 ├── lib/                # Utility functions / API handlers
 ├── public/             # Static assets
 ├── styles/             # Global styles
-├── types/              # TypeScript types
+├── types/              # Type definitions
 └── README.md
 🧠 How It Works
 User signs in
-Inputs resume / selects role
+Selects role or inputs details
 AI generates interview questions
-User responds interactively
-AI analyzes and provides feedback
-
-Modern AI interview tools often use speech/text processing and LLMs to simulate real interview experiences and provide feedback .
-
+User answers interactively
+AI provides feedback and suggestions
 🚀 Future Improvements
-🎙️ Voice-based interviews
+🎙️ Voice-based interview simulation
 📈 Performance analytics dashboard
-🧑‍💼 Company-specific interview prep
-📄 PDF export of answers
-🧠 Behavioral analysis (confidence, clarity)
-🤝 Contributing
-
+🧑‍💼 Company-specific interview sets
+📄 Export responses as PDF
+🧠 Advanced behavioral analysis
 Contributions are welcome!
 
 # Fork the repo
